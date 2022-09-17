@@ -111,7 +111,7 @@ const Home: NextPage = () => {
                 <strong>
                   {
                     allProjects.filter((i) =>
-                      i.categories.includes(categories.GAMING)
+                      i.categories.includes(categories.INFRASTRUCTURE)
                     ).length
                   }
                 </strong>
@@ -193,21 +193,21 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className={`category ${
-                    categoriesFiltered.includes(categories.GAMING)
+                    categoriesFiltered.includes(categories.INFRASTRUCTURE)
                       ? "selected"
                       : ""
                   }`}
-                  onClick={() => toggleCategory(categories.GAMING)}
+                  onClick={() => toggleCategory(categories.INFRASTRUCTURE)}
                 >
                   INFRASTRUCTURES
                 </div>
                 <div
                   className={`category ${
-                    categoriesFiltered.includes(categories.LOTTERY)
+                    categoriesFiltered.includes(categories.BRIDGE)
                       ? "selected"
                       : ""
                   }`}
-                  onClick={() => toggleCategory(categories.LOTTERY)}
+                  onClick={() => toggleCategory(categories.BRIDGE)}
                 >
                   BRIDGE
                 </div>

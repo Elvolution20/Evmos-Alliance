@@ -4,5 +4,4 @@ export type Project = {
     description: string,
     image: string,
     categories: string[],
-    price: number | string
 }
