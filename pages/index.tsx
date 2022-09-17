@@ -101,11 +101,11 @@ const Home: NextPage = () => {
                 <strong>
                   {
                     allProjects.filter((i) =>
-                      i.categories.includes(categories.MARKETPLACE)
+                      i.categories.includes(categories.DEX)
                     ).length
                   }
                 </strong>
-                <p>Markeplace</p>
+                <p>DEXES</p>
               </div>
               <div className="hero-info-unit">
                 <strong>
@@ -183,13 +183,13 @@ const Home: NextPage = () => {
 
                 <div
                   className={`category ${
-                    categoriesFiltered.includes(categories.MARKETPLACE)
+                    categoriesFiltered.includes(categories.DEX)
                       ? "selected"
                       : ""
                   }`}
-                  onClick={() => toggleCategory(categories.MARKETPLACE)}
+                  onClick={() => toggleCategory(categories.DEX)}
                 >
-                  MARKETPLACE
+                  DEXES
                 </div>
                 <div
                   className={`category ${
