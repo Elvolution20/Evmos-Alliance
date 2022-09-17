@@ -52,14 +52,14 @@ const Home: NextPage = () => {
             <div className="container">
               <div className="hero-content">
                 <h1 className="title appear d025">
-                  <small>👋 Welcome to the</small>
-                  <span>NFT Alliance</span> on <i>Arbitrum</i>.
+                  <small><i>👋 Welcome to the</i></small>
+                  <span>EVMOS Alliance.</span> 
                 </h1>
                 <h2 className="subtitle appear d05">
-                  We are an independent collective of <strong>NFT</strong>,{" "}
-                  <strong>DeFi</strong> and <strong>Marketplaces</strong>{" "}
+                  We are an independent collective of <strong>Defi</strong>,{" "}
+                  <strong>NFT</strong> and <strong>Marketplaces</strong>{" "}
                   founders who join forces to achieve joint goals that impact
-                  the Arbitrum ecosystem.
+                  the EVMOS ecosystem.
                 </h2>
                 <div className="cta appear d075">
                   <a
@@ -68,10 +68,10 @@ const Home: NextPage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button>Join the Alliance</Button>
+                    <Button>Join Us</Button>
                   </a>
                   <a href="#about" className="inline">
-                    Explore more
+                  <Button>Explore</Button>
                   </a>
                 </div>
               </div>
@@ -81,31 +81,21 @@ const Home: NextPage = () => {
                 <strong>
                   {
                     allProjects.filter((i) =>
-                      i.categories.includes(categories.NFT)
-                    ).length
-                  }
-                </strong>
-                <p>NFTs Projects</p>
-              </div>
-              <div className="hero-info-unit">
-                <strong>
-                  {
-                    allProjects.filter((i) =>
                       i.categories.includes(categories.DEFI)
                     ).length
                   }
                 </strong>
-                <p>DeFi Projects</p>
+                <p>Defi Projects</p>
               </div>
               <div className="hero-info-unit">
                 <strong>
                   {
                     allProjects.filter((i) =>
-                      i.categories.includes(categories.GAMING)
+                      i.categories.includes(categories.NFT)
                     ).length
                   }
                 </strong>
-                <p>Gaming Projects</p>
+                <p>NFTs / Gamefi</p>
               </div>
               <div className="hero-info-unit">
                 <strong>
@@ -115,7 +105,17 @@ const Home: NextPage = () => {
                     ).length
                   }
                 </strong>
-                <p>Marketplaces</p>
+                <p>Markeplace</p>
+              </div>
+              <div className="hero-info-unit">
+                <strong>
+                  {
+                    allProjects.filter((i) =>
+                      i.categories.includes(categories.GAMING)
+                    ).length
+                  }
+                </strong>
+                <p>Infrastructures</p>
               </div>
             </div>
           </section>
@@ -124,32 +124,31 @@ const Home: NextPage = () => {
             <div className="about-section">
               <strong>01</strong>
               <div className="content">
-                <h3>What is the NFT Alliance?</h3>
+                <h3>What is the EVMOS Alliance?</h3>
                 <p>
-                  The NFT Alliance is a working group formed by different NFT
-                  projects which aim to join efforts to grow our communities and
-                  the NFT ecosystem.
+                  The EVMOS Alliance is a working group formed by different
+                  projects on Evmos Ecosystem which aim to join efforts to grow communities and
+                  the projects on the ecosystem.
                 </p>
               </div>
             </div>
             <div className="about-section">
               <strong>02</strong>
               <div className="content">
-                <h3>How can I join the NFT Alliance?</h3>
+                <h3>How can I join the EVMOS Alliance?</h3>
                 <p>
-                  If you are a NFT project founder/builder, you can join our
-                  Discord and apply. Note: We will not accept applications from
-                  copies of existing projects.
+                  If you are a EVMOS project founder, builder,and Supporter you can join our
+                  Discord and apply. Note: Applications are based on the support on the growth of the Ecosystem.
                 </p>
               </div>
             </div>
             <div className="about-section">
               <strong>03</strong>
               <div className="content">
-                <h3>What will the NFT Alliance do ?</h3>
+                <h3>What will the EVMOS Alliance do ?</h3>
                 <p>
-                  We&apos;ll build exclusive products on Arbitrum which leverage
-                  the NFT technology. Owning one NFT from each collection member
+                  We&apos;ll build exclusive products on EVMOS which leverage
+                  the EVMOS technology. Participating in projects
                   of the alliance will give you access to exclusive content so
                   grab some now.
                 </p>
@@ -158,19 +157,9 @@ const Home: NextPage = () => {
           </div>
 
           <div className="projects-wrapper" id="projects">
-            <h3>All Alliance Projects</h3>
+            <h3>EVMOS ALLIANCE</h3>
             <div className="filter-categories">
               <div className="filter-categories-items">
-                <div
-                  className={`category ${
-                    categoriesFiltered.includes(categories.NFT)
-                      ? "selected"
-                      : ""
-                  }`}
-                  onClick={() => toggleCategory(categories.NFT)}
-                >
-                  NFT
-                </div>
                 <div
                   className={`category ${
                     categoriesFiltered.includes(categories.DEFI)
@@ -179,7 +168,17 @@ const Home: NextPage = () => {
                   }`}
                   onClick={() => toggleCategory(categories.DEFI)}
                 >
-                  DEFI
+                  DEFI PROJECTS
+                </div>
+                <div
+                  className={`category ${
+                    categoriesFiltered.includes(categories.NFT)
+                      ? "selected"
+                      : ""
+                  }`}
+                  onClick={() => toggleCategory(categories.NFT)}
+                >
+                  NFT / GAMEFI
                 </div>
 
                 <div
@@ -194,23 +193,13 @@ const Home: NextPage = () => {
                 </div>
                 <div
                   className={`category ${
-                    categoriesFiltered.includes(categories.AUCTION_HOUSE)
-                      ? "selected"
-                      : ""
-                  }`}
-                  onClick={() => toggleCategory(categories.AUCTION_HOUSE)}
-                >
-                  AUCTION HOUSE
-                </div>
-                <div
-                  className={`category ${
                     categoriesFiltered.includes(categories.GAMING)
                       ? "selected"
                       : ""
                   }`}
                   onClick={() => toggleCategory(categories.GAMING)}
                 >
-                  GAMING
+                  INFRASTRUCTURES
                 </div>
                 <div
                   className={`category ${
@@ -220,7 +209,7 @@ const Home: NextPage = () => {
                   }`}
                   onClick={() => toggleCategory(categories.LOTTERY)}
                 >
-                  LOTTERY
+                  BRIDGE
                 </div>
               </div>
             </div>
@@ -247,7 +236,7 @@ const Home: NextPage = () => {
           display: flex;
           flex-flow: column;
           justify-content: space-between;
-          padding: calc(160px + 80px) 0 0;
+          padding: calc(120px + 50px) 0 0;
           overflow: hidden;
           position: relative;
           min-height: 100vh;
@@ -313,7 +302,7 @@ const Home: NextPage = () => {
         }
 
         .hero-content .title {
-          font-size: 80px;
+          font-size: 70px;
           line-height: 1;
         }
 
@@ -331,7 +320,7 @@ const Home: NextPage = () => {
         }
 
         .hero-content .title i{
-          color: #7514fc;
+          color: #de492d;
         }
 
         .hero-content .subtitle {
@@ -345,7 +334,7 @@ const Home: NextPage = () => {
         }
 
         .hero-content .subtitle strong {
-          color: var(--text-main-color);
+          color: #de492d;
           opacity: 1;
           text-decoration: underline;
           font-style: italic;
@@ -363,7 +352,7 @@ const Home: NextPage = () => {
 
         .hero-info-unit{
           align-items: center;
-          border: 1px solid rgba(255,255,255,0.1);
+          border: 1px solid #de492d;
           display: flex;
           padding: 16px 24px;
           margin: 0;
@@ -371,14 +360,6 @@ const Home: NextPage = () => {
           flex-flow: column;
           flex: 1;
           z-index: 1;
-        }
-
-        .hero-info-unit:first-of-type{
-          border-radius: 8px 0 0 0;
-        }
-
-        .hero-info-unit:last-of-type{
-          border-radius: 0 8px 0 0;
         }
 
         .hero-info-unit strong{

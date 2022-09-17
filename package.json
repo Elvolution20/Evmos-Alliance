@@ -1,5 +1,5 @@
 {
-  "name": "nft-alliance-web-app",
+  "name": "evmos-alliance",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -5,37 +5,37 @@ export function Footer() {
     <div className="footer-wr">
       <div className="footer">
         <a
-          href="https://twitter.com/arbNFTAlliance"
+          href="https://twitter.com/EvmosAlliance"
           target="_blank"
           rel="noopener noreferrer"
           title="Twitter account"
         >
-          👉 Twitter
+           Twitter
         </a>
 
        
 
         <a
           title="Join discord"
-          href="https://discord.gg/eX9eXDu4tu"
+          href="https://discord.gg/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          👉 Join our Discord
+           Discord
         </a>
 
         <a
           title="GitHub"
-          href="https://github.com/nft-alliance"
+          href="https://github.com/evmos-alliance"
           target="_blank"
           rel="noopener noreferrer"
         >
-          👉 GitHub
+           GitHub
         </a>
 
       </div>
       <div style={{ padding: '30px', textAlign: 'center'}}>
-        2021 - NFT Alliance
+        EVMOS Alliance
       </div>
       <style jsx>
         {`

@@ -10,17 +10,17 @@ export const Layout: NextPage = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div className="nft-alliance">
+    <div className="evmos-alliance">
       <Head>
-        <title>NFT Alliance</title>
-        <meta name="description" content="NFT Alliance" />
-        <link rel="icon" href="/nft.png" />
+        <title>EVMOS Alliance</title>
+        <meta name="description" content="EVMOS Alliance" />
+        <link rel="icon" href="/evmos.png" />
       </Head>
       <Header />
       <div className="content">{children}</div>
       <Footer />
       <style jsx>{`
-        .nft-alliance {
+        .evmos-alliance {
           min-height: 100vh;
         }
         .container {
