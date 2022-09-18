@@ -81,7 +81,7 @@ export const allProjects: Project[] = [
     title: "PhotonSwap Finance",
     url: "https://photonswap.finance/",
     description: "AMM styled decentralized exchange (DEX) on Cronos ",
-    image: "PhotonSwap Finance.png",
+    image: "photonswap.png",
     categories: [categories.DEFI, categories.DEX,categories.BRIDGE],
 
   },
