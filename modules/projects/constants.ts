@@ -65,7 +65,7 @@ export const allProjects: Project[] = [
     title: "Saddle Finance",
     url: "https://saddle.finance/",
     description: "Saddle is a decentralized automated market maker on the Ethereum blockchain, optimized for pegged value crypto assets such as stablecoins and wrapped BTC. ",
-    image: "/Saddle finance.png",
+    image: "/saddle.png",
     categories: [categories.DEFI, categories.DEX,],
 
   },
@@ -73,7 +73,7 @@ export const allProjects: Project[] = [
     title: "AutoFarm(AUTO)",
     url: "https://autofarm.network/",
     description: "The Autofarm ecosystem is a one-stop DeFi suite for all users. Autofarm aggregate yield opportunities using vaults and best swap rates using a DEX aggregator (AutoSwap). In addition, other products such as AutoAnalytics, AutoTrade & AutoPortfolio are set to go live later in 2021. The platform is currently live on BSC, HECO, Polygon, Avalanche, Fantom & Moonriver, with more chains to be introduced soon. ",
-    image: "/AutoFarm.jpeg",
+    image: "/autofarm.jpeg",
     categories: [categories.DEFI, categories.DEX,],
 
   },
@@ -97,7 +97,7 @@ export const allProjects: Project[] = [
     title: "Dex Screener",
     url: "https://dexscreener.com/evmos",
     description: "Tracking and charting Evmos ",
-    image: "Dex Screener.jpeg",
+    image: "dexscreener.jpeg",
     categories: [categories.INFRASTRUCTURE,],
 
   },
@@ -105,7 +105,7 @@ export const allProjects: Project[] = [
     title: "Restake App",
     url: "https://restake.app/evmos",
     description: "REStake allows validators to auto-compound your staking rewards. ",
-    image: "Restake App.jpeg",
+    image: "restake.jpeg",
     categories: [categories.INFRASTRUCTURE,],
 
   },
@@ -129,7 +129,7 @@ export const allProjects: Project[] = [
     title: "NovaDAO",
     url: "https://medium.com/@Nova_DAO",
     description: "NovaDAO is a reserve currency protocol and community built on the Cosmos Ecosystem. NovaDAO recognizes the early success of OlympusDAO in creating a decentralized reserve currency, and we have decided to bring this concept to Cosmos. ",
-    image: "NovaDAO.jpeg",
+    image: "NOVADAO.jpeg",
     categories: [categories.DEFI,],
 
   },
@@ -137,7 +137,7 @@ export const allProjects: Project[] = [
     title: "Commonwealth",
     url: "https://commonwealth.im/evmos",
     description: "Platform to discuss, organize, and grow the Evmos decentralized community ",
-    image: "Commonwealth.png",
+    image: "commonwealth.png",
     categories: [categories.INFRASTRUCTURE,],
 
   },
