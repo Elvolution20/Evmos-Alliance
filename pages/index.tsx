@@ -73,14 +73,6 @@ const Home: NextPage = () => {
                   <a href="#about" className="inline">
                   <Button>Explore</Button>
                   </a>
-                  <a
-                    title="Documentation"
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button>Documentation</Button>
-                  </a>
                 </div>
               </div>
             </div>
