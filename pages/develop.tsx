@@ -30,7 +30,7 @@ const Develop: NextPage = () => {
           <h2 className="appear d075">NFT Template</h2>
           <p className="appear d1">
             The EVMOS Alliance created a{" "}
-            <a href="https://github.com/nft-alliance/nft-boilerplate">
+            <a href="https://github.com/Elvolution20/Evmos_Phone_Mint/">
               NFT boilerplate
             </a>{" "}
             that you can use to launch your smartcontract and mint NFTs
