@@ -201,7 +201,7 @@ export const allProjects: Project[] = [
     title: "Cronus Finance",
     url: "https://medium.com/@cronusfinance/announcing-cronus-finance-aa5579889060",
     description: "Cronus Finance is a fully permissionless and composable AMM built on Evmos. ",
-    image: "cronus.jpeg",
+    image: "cronusfinance.jpeg",
     categories: [categories.DEFI,],
 
   },
@@ -241,7 +241,7 @@ export const allProjects: Project[] = [
     title: "Avelin Protocol",
     url: "https://twitter.com/AvelinProtocol",
     description: "Decentralised Orderbook Exchange and Perps ",
-    image: "avelin.jpeg",
+    image: "avelinprotocol.jpeg",
     categories: [categories.DEFI,],
 
   },
@@ -342,7 +342,7 @@ export const allProjects: Project[] = [
 
   },
   {
-    title: "Asteroids Money",
+    title: "Evmosian",
     url: "https://www.evmosians.com/",
     description: "Evmosians NFTs collections will consist of many races and creatures. Each collection will have its own meaning and value. ",
     image: "evmosians.jpeg",
@@ -353,7 +353,7 @@ export const allProjects: Project[] = [
     title: "Midas Capita1",
     url: "https://evmos.space/x",
     description: "Rari Fork for Lending, borrowing & yield for DeFi ",
-    image: "midascapita1.jpeg",
+    image: "midascapita1.png",
     categories: [categories.DEFI,],
 
   },

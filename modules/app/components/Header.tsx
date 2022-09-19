@@ -7,7 +7,7 @@ export function Header() {
       <header>
         <Link href="/#home">
           <strong className="logo">
-            <img src="" alt="" />
+            <img src="evmos.svg" alt="evmos logo" />
           </strong>
         </Link>
         <nav>
@@ -24,8 +24,8 @@ export function Header() {
           </ul>
         </nav>
         <a
-          title="Join discord"
-          href="https://discord.gg/"
+          title="Apply"
+          href="https://forms.gle/CRiYL7WMVadzBqNBA"
           target="_blank"
           rel="noopener noreferrer"
         >

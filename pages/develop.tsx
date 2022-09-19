@@ -6,39 +6,51 @@ const Develop: NextPage = () => {
     <div>
       <Layout>
         <main className="main">
-          <h1 className="title appear">Developer resources</h1>
+          <h1 className="title appear">Developer Kit</h1>
 
-          <h2 className="appear d025">Testnet</h2>
-          <p className="appear d05">
-            Arbitrum has it&apos;s own testnet (chain id: 421611) that you can
-            add here:{" "}
-            <a href="https://chainlist.org/">https://chainlist.org/</a>.
-            Transactions can be visualized through{" "}
-            <a href="https://testnet.arbiscan.io/">
-              https://testnet.arbiscan.io/
-            </a>.
-          </p>
-
-          <h2 className="appear d075">NFT Boilerplate</h2>
-          <p className="appear d1">
-            The NFT Alliance created a{" "}
-            <a href="https://github.com/nft-alliance/nft-boilerplate">
-              NFT boilerplate
-            </a>{" "}
-            that you can use to launch your smartcontract. You will also find a{" "}
-            <a href="https://github.com/nft-alliance/nft-landing-boilerplate">
-              Website Boilerplate
-            </a>{" "}
-            to allow to mint NFTs.{" "}
-          </p>
-
-          <h2 className="appear d125">Arbitrum Documentation</h2>
+          <h2 className="appear d125">Evmos Documentation</h2>
           <p className="appear d150">
             Looking for information for developing on Arbitrum? The official documentation can be found {" "}
-            <a href="https://developer.offchainlabs.com/docs/inside_arbitrum">
+            <a href="https://docs.evmos.org/#/">
               here
             </a>.
           </p>
+
+          <h2 className="appear d025">Evmos Testnet</h2>
+          <p className="appear d05">
+            Evmos has it&apos;s own testnet (chain id: 9000) that you can
+            add here:{" "}
+            <a href="https://chainlist.org/">https://chainlist.org/</a>.
+            Transactions can be visualized through{" "}
+            <a href="https://evm.evmos.dev/">
+            https://evm.evmos.dev/
+            </a>.
+          </p>
+
+          <h2 className="appear d075">NFT Template</h2>
+          <p className="appear d1">
+            The EVMOS Alliance created a{" "}
+            <a href="https://github.com/nft-alliance/nft-boilerplate">
+              NFT boilerplate
+            </a>{" "}
+            that you can use to launch your smartcontract and mint NFTs
+          </p>
+ 
+
+          <h2 className="appear d075">Evmos Web3 Starter Kit</h2>
+          <p className="appear d1">
+            Still in Development ...
+          </p>
+
+
+          <h2 className="appear d075">Create Evmos App</h2>
+          <p className="appear d1">
+            Coming Soon!!!
+          </p>
+
+
+
+
         </main>
       </Layout>
       <style jsx>{`

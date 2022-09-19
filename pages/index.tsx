@@ -73,6 +73,14 @@ const Home: NextPage = () => {
                   <a href="#about" className="inline">
                   <Button>Explore</Button>
                   </a>
+                  <a
+                    title="Documentation"
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button>Documentation</Button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -210,6 +218,16 @@ const Home: NextPage = () => {
                   onClick={() => toggleCategory(categories.BRIDGE)}
                 >
                   BRIDGE
+                </div>
+                <div
+                  className={`category ${
+                    categoriesFiltered.includes(categories.CEX)
+                      ? "selected"
+                      : ""
+                  }`}
+                  onClick={() => toggleCategory(categories.CEX)}
+                >
+                  CEX
                 </div>
               </div>
             </div>
