@@ -7,7 +7,7 @@ export function Header() {
       <header>
         <Link href="/#home">
           <strong className="logo">
-            <img src="evmos.svg" alt="evmos logo" />
+            <img src="evmos.png" alt="evmos logo" width={0}/>
           </strong>
         </Link>
         <nav>

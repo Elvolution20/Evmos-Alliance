@@ -232,6 +232,7 @@ const Home: NextPage = () => {
       <style jsx>{`
         .main {
           padding: 0;
+
         }
         @media all and (max-width: 760px){
           .main{
@@ -246,7 +247,7 @@ const Home: NextPage = () => {
           display: flex;
           flex-flow: column;
           justify-content: space-between;
-          padding: calc(120px + 50px) 0 0;
+          padding: calc(180px + 90px) 0 0;
           overflow: hidden;
           position: relative;
           min-height: 100vh;
@@ -254,7 +255,7 @@ const Home: NextPage = () => {
 
         @media all and (max-width: 760px){
           .hero{
-             padding: 120px 0 0;
+             padding: 180px 0 0;
           }
         }
 
