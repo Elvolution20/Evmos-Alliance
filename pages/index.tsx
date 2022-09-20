@@ -64,7 +64,7 @@ const Home: NextPage = () => {
                 <div className="cta appear d075">
                   <a
                     title="Join discord"
-                    href="https://discord.gg/eX9eXDu4tu"
+                    href="https://discord.gg/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -158,7 +158,7 @@ const Home: NextPage = () => {
                   the EVMOS technology. Participating in projects
                   of the alliance will give you access to exclusive content so
                   grab some now. <br />
-                  This guide is intended to be helpful project founders, builders,and supporters to understand: <br />
+                  This guide is intended to be helpful project founder, builders,and supporters to understand: <br />
                   (i) how to get registered on EvmosAlliance services; and <br />
                   (ii) how to leverage EvmosAlliance's features for the best experience.
 
