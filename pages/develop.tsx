@@ -10,7 +10,7 @@ const Develop: NextPage = () => {
 
           <h2 className="appear d125">Evmos Documentation</h2>
           <p className="appear d150">
-            Looking for information for developing on Arbitrum? The official documentation can be found {" "}
+            Looking for information for developing on Evmos? The official documentation can be found {" "}
             <a href="https://docs.evmos.org/#/">
               here
             </a>.
