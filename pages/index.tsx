@@ -121,6 +121,13 @@ const Home: NextPage = () => {
           </section>
 
           <div className="about" id="about">
+            <div>
+              <h3>Crypto projects are always finding new ways to disrupt the world around them,
+                 whether it's in art, finance, aerospace, or food. Increasingly,
+                  crypto is disrupting how communities affect companies.
+                  
+</h3>
+            </div>
             <div className="about-section">
               <strong>01</strong>
               <div className="content">
@@ -150,7 +157,11 @@ const Home: NextPage = () => {
                   We&apos;ll build exclusive products on EVMOS which leverage
                   the EVMOS technology. Participating in projects
                   of the alliance will give you access to exclusive content so
-                  grab some now.
+                  grab some now. <br />
+                  This guide is intended to be helpful project founders, builders,and supporters to understand: <br />
+                  (i) how to get registered on EvmosAlliance services; and <br />
+                  (ii) how to leverage EvmosAlliance's features for the best experience.
+
                 </p>
               </div>
             </div>
